@@ -1,0 +1,37 @@
+body{
+  background-color: skyblue;
+}
+.main{
+  width: 520px;
+  height: 400px;
+  background-color: white;
+  margin: 50px auto;
+}
+.heading{
+  margin-top: 30px;
+  text-align: center;
+}
+.main .display{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.display .display-bar{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 370px;
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid black;
+  background-color: white;
+  text-align: left;
+  color: black;
+}
+.display > div{
+  margin: 5px ;
+  width: 110px;
+  height: 35px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding-top: 5px;
+}
